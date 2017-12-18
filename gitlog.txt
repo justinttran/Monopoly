@@ -1,0 +1,1800 @@
+commit cf3338797f56ee74844f3ecb71e13a2d1681488c
+Author: Bipra Kundu <bk372@cornell.edu>
+Date:   Thu Dec 7 16:11:59 2017 -0500
+
+    fixed readme
+
+ README.txt | 2 ++
+ 1 file changed, 2 insertions(+)
+
+commit 708ad846ad97c0bcf97862610b8bf0621ca77de5
+Author: Mooky <mb2533@cornell.edu>
+Date:   Thu Dec 7 16:10:06 2017 -0500
+
+    removed redundant tests
+
+ test.ml | 997 ----------------------------------------------------------------
+ 1 file changed, 997 deletions(-)
+
+commit aacd845ab7779923a9d3e121bd8adfe81db19acf
+Author: Mooky <mb2533@cornell.edu>
+Date:   Thu Dec 7 16:09:08 2017 -0500
+
+    added more tests
+
+ test.ml | 840 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 840 insertions(+)
+
+commit 719ca5da4a1c8b19a64a8a5a68166a0cd54c42c2
+Author: Mooky <mb2533@cornell.edu>
+Date:   Thu Dec 7 16:08:19 2017 -0500
+
+    added more tests
+
+ test.ml | 158 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-
+ 1 file changed, 157 insertions(+), 1 deletion(-)
+
+commit 605989da0da3160b52eb71dd235aca96535c7f9e
+Author: Mooky <mb2533@cornell.edu>
+Date:   Thu Dec 7 16:06:50 2017 -0500
+
+    added player tests
+
+ test.ml | 37 +++++++++++++++++++++++++++++++++++--
+ 1 file changed, 35 insertions(+), 2 deletions(-)
+
+commit 310a5c27a619891ed190c05091c4f122fdbbb1b2
+Author: Bipra Kundu <bk372@cornell.edu>
+Date:   Thu Dec 7 16:06:20 2017 -0500
+
+    test jsons
+
+ test2.json | 518 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 518 insertions(+)
+
+commit 65ca13aaf9b121cb929d7b328ad81bd11b89e20e
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Thu Dec 7 16:03:30 2017 -0500
+
+    test house
+
+ housetest.json | 503 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ main.ml        |   2 +-
+ 2 files changed, 504 insertions(+), 1 deletion(-)
+
+commit ee9e996188d563995a365537fa474222eeea5119
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Thu Dec 7 16:01:41 2017 -0500
+
+    buying and selling houses
+
+ board.ml   |   8 +-
+ command.ml |   1 +
+ main.ml    |  10 +-
+ test3.json | 502 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 4 files changed, 515 insertions(+), 6 deletions(-)
+
+commit 96570177cf656d0a9da6cc325fae3a867d2e49c7
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Thu Dec 7 15:43:10 2017 -0500
+
+    mortgage
+
+ board.ml   | 8 ++++----
+ command.ml | 2 +-
+ main.ml    | 4 ++++
+ 3 files changed, 9 insertions(+), 5 deletions(-)
+
+commit ff2f097079b73a8e58bf4352c208984d06eeeb57
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Thu Dec 7 15:30:21 2017 -0500
+
+    close call
+
+ board.ml | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+commit 975a8d76579265793dbfb158967ae190fda91047
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Thu Dec 7 15:27:39 2017 -0500
+
+    no more unused vars
+
+ command.ml | 2 +-
+ main.ml    | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+commit ac3864b03b0d9f139d471008b90fc86c583ca87b
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Thu Dec 7 15:24:28 2017 -0500
+
+    tests
+
+ Makefile | 3 +++
+ test.ml  | 3 ++-
+ 2 files changed, 5 insertions(+), 1 deletion(-)
+
+commit 405412d0df33cb5c2c5ab007bf42081ff745d036
+Author: Bipra Kundu <bk372@cornell.edu>
+Date:   Thu Dec 7 15:22:23 2017 -0500
+
+    test file
+
+ test.ml | 15 +++++++++++++++
+ 1 file changed, 15 insertions(+)
+
+commit cb1e55d500ff959dcf56aca3a497687dc36474a9
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Thu Dec 7 15:16:52 2017 -0500
+
+    lowercase
+
+ properties.json | 14 +++++++-------
+ 1 file changed, 7 insertions(+), 7 deletions(-)
+
+commit 775a41484bba846b266ccd455dc2a2880b8a9ef5
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Thu Dec 7 15:14:49 2017 -0500
+
+    fix properties
+
+ properties.json | 22 +++++++++++-----------
+ 1 file changed, 11 insertions(+), 11 deletions(-)
+
+commit 3ab7b0a0f359aa3049ff7275ad3bacd1b6481d86
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Thu Dec 7 14:34:28 2017 -0500
+
+    go to jail
+
+ asd.json | 503 ---------------------------------------------------------------
+ board.ml |   8 +
+ 2 files changed, 8 insertions(+), 503 deletions(-)
+
+commit 4aba3a4037e03e3389e7332de627c91eab8caa43
+Merge: ed4c54f 47876a7
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Thu Dec 7 13:49:35 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/jtt65/CS3110-Final-Project
+
+commit ed4c54f51444a6cbb0e632cd02c7ab7fb886bdfa
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Thu Dec 7 13:49:33 2017 -0500
+
+    json fixes
+
+ main.ml | 10 ++++++++--
+ 1 file changed, 8 insertions(+), 2 deletions(-)
+
+commit 47876a73d1a640550370299d21c8f98fdb9c513a
+Author: Bipra Kundu <bk372@cornell.edu>
+Date:   Thu Dec 7 13:45:44 2017 -0500
+
+    edits to the read me
+
+ README.txt | 38 +++++++++++++++++++++++++++++++++++++-
+ 1 file changed, 37 insertions(+), 1 deletion(-)
+
+commit b86a8fd8c84f740c6b82e6d76e4b6c8abbd95880
+Author: Bipra Kundu <bk372@cornell.edu>
+Date:   Thu Dec 7 13:33:58 2017 -0500
+
+    more comments
+
+ board.ml | 5 +++++
+ 1 file changed, 5 insertions(+)
+
+commit b768c6a7d2631cd8b2ad68a71194b7ba5f2db8dd
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Thu Dec 7 13:24:35 2017 -0500
+
+    chance works
+
+ board.ml  | 39 +++++++++++++++++++++++++++------------
+ board.mli |  2 ++
+ main.ml   | 14 +++++++++++---
+ 3 files changed, 40 insertions(+), 15 deletions(-)
+
+commit f2c878da9e80cab9e5394b6ad824dc51eafaf265
+Merge: 2132d17 bfff0bd
+Author: Mooky <mb2533@cornell.edu>
+Date:   Thu Dec 7 13:02:17 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/jtt65/CS3110-Final-Project
+
+commit 2132d17507d1e5db70b78b7243f2599e181de3f6
+Author: Mooky <mb2533@cornell.edu>
+Date:   Thu Dec 7 13:02:11 2017 -0500
+
+    Added chance properties to json and print board
+
+ main.ml         | 24 ++++++++++++------------
+ properties.json | 16 ++++++++--------
+ 2 files changed, 20 insertions(+), 20 deletions(-)
+
+commit bfff0bdc9c1ad6c366bc3df5d84ae155c4ab7321
+Merge: 674c35b 6fc5de8
+Author: Bipra Kundu <bk372@cornell.edu>
+Date:   Thu Dec 7 12:59:58 2017 -0500
+
+    Merge branch 'master' of github.coecis.cornell.edu:jtt65/CS3110-Final-Project
+
+commit 674c35bcacc074d4fcab94ef3994fa66c9311a1f
+Author: Bipra Kundu <bk372@cornell.edu>
+Date:   Thu Dec 7 12:59:51 2017 -0500
+
+    is on chance helper function
+
+ board.ml | 15 ++++++++++++++-
+ 1 file changed, 14 insertions(+), 1 deletion(-)
+
+commit 6fc5de82a4db6ccfa49cb6a0fed06c7f783c5795
+Merge: 5200396 440dd80
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Thu Dec 7 12:49:33 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/jtt65/CS3110-Final-Project
+
+commit 520039675b39955a806ab0e19350459f1475a3ed
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Thu Dec 7 12:49:31 2017 -0500
+
+    look
+
+ main.ml | 10 +++++-----
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+
+commit 440dd8007827a70a639ea2cf5872c79cb7262bbf
+Merge: ffeca75 acbe11f
+Author: Bipra Kundu <bk372@cornell.edu>
+Date:   Thu Dec 7 12:48:20 2017 -0500
+
+    Merge branch 'master' of github.coecis.cornell.edu:jtt65/CS3110-Final-Project
+
+commit ffeca75f7e037d0e5cf5afecd53762c46e82a970
+Author: Bipra Kundu <bk372@cornell.edu>
+Date:   Thu Dec 7 12:48:10 2017 -0500
+
+    more comments
+
+ board.ml | 48 +++++++++++++++++++++++++++++-------------------
+ 1 file changed, 29 insertions(+), 19 deletions(-)
+
+commit acbe11f187c602fbda9bdee4e658f9cc4837d9a9
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Thu Dec 7 12:47:53 2017 -0500
+
+    bugs
+
+ README.txt | 25 +++++++++++++++++++++++++
+ command.ml |  2 ++
+ main.ml    |  6 +++---
+ 3 files changed, 30 insertions(+), 3 deletions(-)
+
+commit a6af020b0191092cf68b59291fc506ee2ddc0009
+Author: Mooky <mb2533@cornell.edu>
+Date:   Thu Dec 7 12:34:45 2017 -0500
+
+    added specs for board.mli
+
+ board.mli | 43 ++++++++++++++++++++++++-------------------
+ 1 file changed, 24 insertions(+), 19 deletions(-)
+
+commit 0996cff8e6c98c90cc9ff51076f89629b4dbe4f1
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Thu Dec 7 12:14:29 2017 -0500
+
+    comments
+
+ asd.json | 503 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ main.ml  |  92 +++++++++---
+ 2 files changed, 577 insertions(+), 18 deletions(-)
+
+commit 75e5b1226e8e64c572e8c5e911295c1e675eacd4
+Author: Bipra Kundu <bk372@cornell.edu>
+Date:   Thu Dec 7 12:13:40 2017 -0500
+
+    more comments
+
+ board.ml  | 15 +++------------
+ board.mli |  9 ++++++++-
+ 2 files changed, 11 insertions(+), 13 deletions(-)
+
+commit 958f5d0c6cdb9ee890a283de16f09e328a6cd5e5
+Merge: 33d68bc 14ef617
+Author: Mooky <mb2533@cornell.edu>
+Date:   Thu Dec 7 12:12:03 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/jtt65/CS3110-Final-Project
+
+commit 33d68bcdc7f977f7c92b20b88814f807d53fdc6e
+Author: Mooky <mb2533@cornell.edu>
+Date:   Thu Dec 7 12:11:58 2017 -0500
+
+    Cleaned up code + specs for player and property
+
+ player.ml    | 16 ++--------------
+ player.mli   | 10 ++++++++++
+ property.mli | 10 ++++++++++
+ 3 files changed, 22 insertions(+), 14 deletions(-)
+
+commit 14ef6176afb6e3268aef2936a6a45fdb507a038d
+Author: Bipra Kundu <bk372@cornell.edu>
+Date:   Thu Dec 7 12:02:58 2017 -0500
+
+    Board code cleanup
+
+ board.ml | 13 +++++++++++--
+ 1 file changed, 11 insertions(+), 2 deletions(-)
+
+commit cd65baca35b5cda91f48bb5be0b25969d81eb4fb
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Thu Dec 7 11:41:22 2017 -0500
+
+    bugs
+
+ main.ml | 13 +++++++++----
+ 1 file changed, 9 insertions(+), 4 deletions(-)
+
+commit 081a09df4236328be5f6f3b525dc25ed75d902e6
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Thu Dec 7 11:30:40 2017 -0500
+
+    must roll
+
+ main.ml | 16 ++++++++++------
+ 1 file changed, 10 insertions(+), 6 deletions(-)
+
+commit c83baf43022c62b5d9b8a169f76c392e05ab1eae
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Thu Dec 7 11:25:47 2017 -0500
+
+    random is now random
+
+ main.ml | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 99aa018d6f6b4ff1008d26b20d46829dd1c9271c
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Thu Dec 7 11:18:46 2017 -0500
+
+    json handling
+
+ main.ml | 11 ++++++++++-
+ 1 file changed, 10 insertions(+), 1 deletion(-)
+
+commit 9db3d550f6b19fc1e914992e63e5564e689badb4
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Thu Dec 7 11:11:29 2017 -0500
+
+    you can get into the negatives
+
+ board.ml  | 43 +++++++++++++++++++++++--------------------
+ main.ml   |  3 ++-
+ test.json |  6 +++---
+ 3 files changed, 28 insertions(+), 24 deletions(-)
+
+commit 1307477f53077a62d068013a0650ab9292cafa28
+Author: Mooky <mb2533@cornell.edu>
+Date:   Thu Dec 7 11:03:29 2017 -0500
+
+    Fixed winning state stuff
+
+ board.ml  | 6 +++---
+ board.mli | 2 +-
+ main.ml   | 3 +++
+ 3 files changed, 7 insertions(+), 4 deletions(-)
+
+commit 3f2c0b31f895aa405459b12bfa87fa6e446d9045
+Merge: 7754c45 42d4c27
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Thu Dec 7 10:54:51 2017 -0500
+
+    fixed conflicts
+
+commit 7754c45c3c9d0987b30fb69163be32529dea77c8
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Thu Dec 7 10:54:25 2017 -0500
+
+    jail
+
+ board.ml  |  7 +++++++
+ board.mli |  2 ++
+ main.ml   | 19 +++++++++++++++++++
+ test.json | 16 ++++++++--------
+ 4 files changed, 36 insertions(+), 8 deletions(-)
+
+commit 42d4c27983a530c152b9751faa41c33ea235b818
+Author: Mooky <mb2533@cornell.edu>
+Date:   Thu Dec 7 10:51:19 2017 -0500
+
+    Added get_win_state in board to see if all but one player have forfeited
+
+ board.ml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 62dabfb81bb9340fa82e66389949fe4e069c00ed
+Author: Mooky <mb2533@cornell.edu>
+Date:   Thu Dec 7 10:49:50 2017 -0500
+
+    Added get_win_state in board to see if all but one player have forfeited
+
+ board.ml  | 13 +++++++++++++
+ board.mli |  2 ++
+ 2 files changed, 15 insertions(+)
+
+commit e1a8b37e3fb923baaed82cd91cbab40e69b84473
+Merge: efd4493 10c884c
+Author: Bipra Kundu <bk372@cornell.edu>
+Date:   Thu Dec 7 10:42:32 2017 -0500
+
+    Merge branch 'master' of github.coecis.cornell.edu:jtt65/CS3110-Final-Project
+
+commit efd44938407c9e88136d3a5ec31b4a61a112e840
+Author: Bipra Kundu <bk372@cornell.edu>
+Date:   Thu Dec 7 10:42:12 2017 -0500
+
+    More comments for board
+
+ board.ml | 13 +++++++++++--
+ 1 file changed, 11 insertions(+), 2 deletions(-)
+
+commit 10c884ca49afe7180fb06e7dc03ba8de08b5cceb
+Author: Mooky <mb2533@cornell.edu>
+Date:   Thu Dec 7 10:37:12 2017 -0500
+
+    added settes to send player to jail and out of jail
+
+ player.ml  | 20 ++++++++++++++++++++
+ player.mli |  4 ++++
+ 2 files changed, 24 insertions(+)
+
+commit 2fd28455a6c58c1fd65aa73fcc969b95e94ff533
+Author: Bipra Kundu <bk372@cornell.edu>
+Date:   Thu Dec 7 02:40:07 2017 -0500
+
+    Started commenting property.mli and board.mli
+
+ board.ml     | 28 ++++++++++++++++++++++++++++
+ property.mli |  3 +++
+ 2 files changed, 31 insertions(+)
+
+commit cdb9c855ec3837aed62703ebe1763d2f9bd1fd7b
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Thu Dec 7 00:24:58 2017 -0500
+
+    no more main command
+
+ command.ml  | 1 -
+ command.mli | 1 -
+ 2 files changed, 2 deletions(-)
+
+commit 40d820017ec6c2f4816bffca3b409dc0db904a8a
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Thu Dec 7 00:23:56 2017 -0500
+
+    forfeiting works?
+
+ main.ml | 5 +++++
+ 1 file changed, 5 insertions(+)
+
+commit 85ae678212d1f31b6bd1965836926bebf528ea08
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Thu Dec 7 00:20:10 2017 -0500
+
+    fixes
+
+ board.ml     | 23 +++++++++++++++++++++--
+ property.ml  | 14 ++++++++++++++
+ property.mli |  2 ++
+ 3 files changed, 37 insertions(+), 2 deletions(-)
+
+commit 2fdfaf39b1a9662f8a176b064900b97b6242e40a
+Merge: daaa396 31a6547
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Thu Dec 7 00:15:31 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/jtt65/CS3110-Final-Project
+
+commit daaa39664ecfccdc5b69c2413399f018b9cc2f5f
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Thu Dec 7 00:15:29 2017 -0500
+
+    fixed roll
+
+ board.ml | 12 ++++++++++--
+ 1 file changed, 10 insertions(+), 2 deletions(-)
+
+commit 31a6547af0da2f1bec3a9a16a274dc71cc237841
+Author: Bipra Kundu <bk372@cornell.edu>
+Date:   Thu Dec 7 00:11:34 2017 -0500
+
+    Adding mortgage commands
+
+ board.ml    | 1 +
+ command.ml  | 4 ++--
+ command.mli | 2 +-
+ 3 files changed, 4 insertions(+), 3 deletions(-)
+
+commit 0986e389982f705d5f757ecaacc04b637fd6cbb7
+Merge: 7b7c49b 83c7ac9
+Author: Bipra Kundu <bk372@cornell.edu>
+Date:   Thu Dec 7 00:05:47 2017 -0500
+
+    Merge branch 'master' of github.coecis.cornell.edu:jtt65/CS3110-Final-Project
+
+commit 7b7c49bf51937782eb55392f0dcb8e857b60bf65
+Author: Bipra Kundu <bk372@cornell.edu>
+Date:   Thu Dec 7 00:05:42 2017 -0500
+
+    Mortgage
+
+ board.ml     | 25 ++++++++++++++++++++-----
+ property.ml  |  5 +++++
+ property.mli |  2 ++
+ 3 files changed, 27 insertions(+), 5 deletions(-)
+
+commit 83c7ac95feabe273247baf9b72a55ea3a3f4d271
+Author: Mooky <mb2533@cornell.edu>
+Date:   Thu Dec 7 00:03:48 2017 -0500
+
+    Added the sellHouse to the turns pattern match
+
+ board.ml | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 80627a6943fc76d485ab35a8ed65d22a72ddd9d6
+Author: Mooky <mb2533@cornell.edu>
+Date:   Thu Dec 7 00:02:50 2017 -0500
+
+    Fixed some of sell_house_turn
+
+ board.ml | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+
+commit 56246a9feddedbd71ca79b574abc179180a8e0b7
+Author: Mooky <mb2533@cornell.edu>
+Date:   Wed Dec 6 23:53:06 2017 -0500
+
+    added selling houses on properties
+
+ board.ml     | 20 ++++++++++++++++++++
+ board.mli    |  2 ++
+ property.ml  | 19 +++++++++++++++++++
+ property.mli |  1 +
+ 4 files changed, 42 insertions(+)
+
+commit 393eff689c6c22af828eddd12c0fd7e6fc8cf077
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Wed Dec 6 23:47:07 2017 -0500
+
+    make fixes
+
+ board.ml     | 5 +++--
+ board.mli    | 7 ++-----
+ property.mli | 2 ++
+ 3 files changed, 7 insertions(+), 7 deletions(-)
+
+commit f2072d9bd98c2625283eb220a7d1400a61ba66dd
+Merge: 1bb0f13 adc7a20
+Author: Mooky <mb2533@cornell.edu>
+Date:   Wed Dec 6 23:31:18 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/jtt65/CS3110-Final-Project
+
+commit 1bb0f1304e75f7e40eac7d7c51e0201c92dc66d7
+Author: Mooky <mb2533@cornell.edu>
+Date:   Wed Dec 6 23:31:13 2017 -0500
+
+    Added get complete set
+
+ board.ml  | 14 +++++++++++++-
+ board.mli |  4 ++++
+ 2 files changed, 17 insertions(+), 1 deletion(-)
+
+commit adc7a2088b4db8d1c94171c97809c1592a1cd0c1
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Wed Dec 6 23:30:26 2017 -0500
+
+    fix thing
+
+ board.ml | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 99e6dfd2fe78fbcd289eea500d921d792f2be8c2
+Merge: 0c64973 3f79d3d
+Author: Bipra Kundu <bk372@cornell.edu>
+Date:   Wed Dec 6 22:16:18 2017 -0500
+
+    Merge branch 'master' of github.coecis.cornell.edu:jtt65/CS3110-Final-Project
+
+commit 0c649730ad7947f0033dcd7597d2fb111c8b068b
+Author: Bipra Kundu <bk372@cornell.edu>
+Date:   Wed Dec 6 22:16:13 2017 -0500
+
+    Started mortgage helpers
+
+ board.ml | 10 +++++++++-
+ 1 file changed, 9 insertions(+), 1 deletion(-)
+
+commit 3f79d3d1ae9d3b5097fb374f65707438e9f63561
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Wed Dec 6 22:15:10 2017 -0500
+
+    get player from id
+
+ board.ml | 49 ++++++++++++++++++++++++-------------------------
+ 1 file changed, 24 insertions(+), 25 deletions(-)
+
+commit 8b7aea848ac22dda571b8e785d74717141245450
+Author: Mooky <mb2533@cornell.edu>
+Date:   Wed Dec 6 22:13:26 2017 -0500
+
+    added buying houses
+
+ board.ml    | 22 ++++++++++++++++++++++
+ property.ml | 17 +++++++++++++++++
+ 2 files changed, 39 insertions(+)
+
+commit 1f712c905a2d89522e9d2717269af015ef862842
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Wed Dec 6 22:07:24 2017 -0500
+
+    rent things
+
+ board.ml | 28 ++++++++++++++++++++++++----
+ 1 file changed, 24 insertions(+), 4 deletions(-)
+
+commit ea0fba0efa12785ddd234fd8cffd933c850acc29
+Merge: 93cae48 09877dc
+Author: Mooky <mb2533@cornell.edu>
+Date:   Wed Dec 6 21:21:54 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/jtt65/CS3110-Final-Project
+
+commit 93cae488e3c82195339ddcb1716469012a7dc2c7
+Author: Mooky <mb2533@cornell.edu>
+Date:   Wed Dec 6 21:21:45 2017 -0500
+
+    added colors to the board
+
+ main.ml | 62 +++++++++++++++++++++++++++++++++++++++++++++++++++++---------
+ 1 file changed, 53 insertions(+), 9 deletions(-)
+
+commit 09877dc930bc9ab671170b687658f53a397d19fa
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Wed Dec 6 21:19:26 2017 -0500
+
+    no more load command
+
+ command.ml  | 2 --
+ command.mli | 1 -
+ main.ml     | 1 -
+ 3 files changed, 4 deletions(-)
+
+commit b1e5759aafc8e5afee0902228ee3de7d8bfc0e27
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Wed Dec 6 21:17:49 2017 -0500
+
+    JSON loading complete, assuming correct file names
+
+ board.ml        |  12 +-
+ board.mli       |   4 +-
+ main.ml         |  54 ++++++-
+ player.ml       |   6 +-
+ plswork.json    | 480 --------------------------------------------------------
+ properties.json |  20 ++-
+ test.json       | 107 ++++++++-----
+ yep.json        | 480 --------------------------------------------------------
+ 8 files changed, 145 insertions(+), 1018 deletions(-)
+
+commit 03243512911e5fc46edfb9b7d6d7fe22e601261a
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Wed Dec 6 20:37:37 2017 -0500
+
+    quick fix to init_board
+
+ board.ml  | 4 ++--
+ board.mli | 2 +-
+ main.ml   | 2 +-
+ 3 files changed, 4 insertions(+), 4 deletions(-)
+
+commit 1b05f41399c00c366245df9b7efdb405658b3943
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Wed Dec 6 20:01:39 2017 -0500
+
+    some fixes and changes to selling + command errors
+
+ board.ml        | 21 +++++++++++++--------
+ command.ml      |  4 +++-
+ main.ml         | 22 ++++++++++++----------
+ properties.json |  2 +-
+ 4 files changed, 29 insertions(+), 20 deletions(-)
+
+commit dff09cbcf3d4719037964d23b8d931124e8187c6
+Author: Bipra Kundu <bk372@cornell.edu>
+Date:   Wed Dec 6 16:53:03 2017 -0500
+
+    All helper functions for sell
+
+ board.ml | 48 ++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 48 insertions(+)
+
+commit ef15b998890b5683b21775baecba1da1718abe1f
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Tue Dec 5 19:04:34 2017 -0500
+
+    can add properties to json
+
+ main.ml      |  54 +++++++
+ player.ml    |   2 +-
+ plswork.json | 480 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ test.json    | 480 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ yep.json     | 480 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 5 files changed, 1495 insertions(+), 1 deletion(-)
+
+commit ae09c57c63ef6d2dfffea0b0778cd493cc89082d
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Tue Dec 5 18:16:26 2017 -0500
+
+    added empty properties field to properties.json
+
+ properties.json | 12 ++++++++----
+ 1 file changed, 8 insertions(+), 4 deletions(-)
+
+commit 41b2522a8639ec799b93663588776e698eae52d8
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Tue Dec 5 18:14:13 2017 -0500
+
+    fixed looking and board printing
+
+ main.ml | 34 +++++++++++++++++++++++++++-------
+ 1 file changed, 27 insertions(+), 7 deletions(-)
+
+commit 8287f4632b3b2e980bde425ec61b55b7801efe20
+Author: Mooky <mb2533@cornell.edu>
+Date:   Mon Dec 4 22:43:52 2017 -0500
+
+    Changed look so that an invalid string int will be set to 5 (aka look board)
+
+ command.ml | 10 +++++++---
+ 1 file changed, 7 insertions(+), 3 deletions(-)
+
+commit 92d3b1dc9703434aee63006f802bd9ceb77d531e
+Author: Mooky <mb2533@cornell.edu>
+Date:   Mon Dec 4 22:38:42 2017 -0500
+
+    Changed buy house commands
+
+ command.ml  | 4 ++--
+ command.mli | 2 +-
+ 2 files changed, 3 insertions(+), 3 deletions(-)
+
+commit c8c7058cabb0a57b8f6e1037ce558c5382ee40b8
+Author: Mooky <mb2533@cornell.edu>
+Date:   Mon Dec 4 22:36:58 2017 -0500
+
+    Added buy and sell house commands
+
+ command.ml  | 11 +++++++++--
+ command.mli |  2 ++
+ 2 files changed, 11 insertions(+), 2 deletions(-)
+
+commit f9f4b4f63712c578e82ac4b210a4609eb7feb9a2
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Mon Dec 4 22:17:38 2017 -0500
+
+    quit implemented
+
+ main.ml | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit be00f511b3cfa70796c477b9e5d0b07a1871d91b
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Mon Dec 4 22:16:12 2017 -0500
+
+    minor print changes
+
+ main.ml | 7 +++++--
+ 1 file changed, 5 insertions(+), 2 deletions(-)
+
+commit 3edfb9ec62cc41582f40b78076a071e164eff57f
+Merge: 861ff00 23de428
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Mon Dec 4 22:13:26 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/jtt65/CS3110-Final-Project
+
+commit 861ff006202be8be07c3ca75f85e858b97d03380
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Mon Dec 4 22:13:24 2017 -0500
+
+    look board implemented in main
+
+ main.ml | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+commit 23de42891c32bfc2d3a396ccaa03a929b38a1ecd
+Author: Mooky <mb2533@cornell.edu>
+Date:   Mon Dec 4 22:13:07 2017 -0500
+
+    Added stuff for look board
+
+ command.ml | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+commit f4b176497780405f5e051d5bd38383f997abb8b4
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Mon Dec 4 14:09:04 2017 -0500
+
+    go, free parking, jail, etc are now owned by Clarkson
+
+ properties.json | 36 ++++++++++++++++++------------------
+ 1 file changed, 18 insertions(+), 18 deletions(-)
+
+commit 3f82166a0de4afce3e7591d527374f54986dcea5
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Mon Dec 4 14:04:03 2017 -0500
+
+    We are OCAML GODS
+
+ board.ml |  9 ++++++---
+ main.ml  | 12 +++++++++++-
+ 2 files changed, 17 insertions(+), 4 deletions(-)
+
+commit cec34d75f251c9b5995a45277cec5b35414dd0bb
+Merge: dc5b6fd 6a9573b
+Author: Bipra Kundu <bk372@cornell.edu>
+Date:   Mon Dec 4 13:49:06 2017 -0500
+
+    changes
+
+commit dc5b6fd191244a4d96b10c119a1919e983a814e4
+Author: Bipra Kundu <bk372@cornell.edu>
+Date:   Mon Dec 4 13:46:58 2017 -0500
+
+    Taxing player when they get to luxury or income tax tile
+
+ _build/_digests              |  32 -----------
+ _build/_log                  |   8 ---
+ _build/board.cmi             | Bin 1176 -> 0 bytes
+ _build/board.cmo             | Bin 3200 -> 0 bytes
+ _build/board.ml              |  83 ----------------------------
+ _build/board.ml.depends      |   1 -
+ _build/board.mli             |  36 ------------
+ _build/board.mli.depends     |   1 -
+ _build/checktypes.byte       | Bin 222552 -> 0 bytes
+ _build/checktypes.cmi        | Bin 196 -> 0 bytes
+ _build/checktypes.cmo        | Bin 180 -> 0 bytes
+ _build/checktypes.ml         |   1 -
+ _build/checktypes.ml.depends |   1 -
+ _build/command.cmi           | Bin 635 -> 0 bytes
+ _build/command.cmo           | Bin 1392 -> 0 bytes
+ _build/command.ml            |  50 -----------------
+ _build/command.ml.depends    |   1 -
+ _build/command.mli           |  16 ------
+ _build/command.mli.depends   |   1 -
+ _build/main.byte             | Bin 543756 -> 0 bytes
+ _build/main.cmi              | Bin 1204 -> 0 bytes
+ _build/main.cmo              | Bin 9870 -> 0 bytes
+ _build/main.ml               | 112 --------------------------------------
+ _build/main.ml.depends       |   1 -
+ _build/ocamlc.where          |   1 -
+ _build/player.cmi            | Bin 1574 -> 0 bytes
+ _build/player.cmo            | Bin 2147 -> 0 bytes
+ _build/player.ml             | 127 -------------------------------------------
+ _build/player.ml.depends     |   1 -
+ _build/player.mli            |  41 --------------
+ _build/player.mli.depends    |   1 -
+ _build/property.cmi          | Bin 1402 -> 0 bytes
+ _build/property.cmo          | Bin 3161 -> 0 bytes
+ _build/property.ml           |  62 ---------------------
+ _build/property.ml.depends   |   1 -
+ _build/property.mli          |  51 -----------------
+ _build/property.mli.depends  |   1 -
+ checktypes.byte              |   1 -
+ checktypes.ml                |   1 -
+ main.byte                    |   1 -
+ 40 files changed, 633 deletions(-)
+
+commit 07d65291550f761c14ead82a012d61d4d46bbad3
+Author: Bipra Kundu <bk372@cornell.edu>
+Date:   Mon Dec 4 13:46:19 2017 -0500
+
+    Taxing players
+
+ _build/_digests              |  32 +++++++++++
+ _build/_log                  |   8 +++
+ _build/board.cmi             | Bin 0 -> 1176 bytes
+ _build/board.cmo             | Bin 0 -> 3200 bytes
+ _build/board.ml              |  83 ++++++++++++++++++++++++++++
+ _build/board.ml.depends      |   1 +
+ _build/board.mli             |  36 ++++++++++++
+ _build/board.mli.depends     |   1 +
+ _build/checktypes.byte       | Bin 0 -> 222552 bytes
+ _build/checktypes.cmi        | Bin 0 -> 196 bytes
+ _build/checktypes.cmo        | Bin 0 -> 180 bytes
+ _build/checktypes.ml         |   1 +
+ _build/checktypes.ml.depends |   1 +
+ _build/command.cmi           | Bin 0 -> 635 bytes
+ _build/command.cmo           | Bin 0 -> 1392 bytes
+ _build/command.ml            |  50 +++++++++++++++++
+ _build/command.ml.depends    |   1 +
+ _build/command.mli           |  16 ++++++
+ _build/command.mli.depends   |   1 +
+ _build/main.byte             | Bin 0 -> 543756 bytes
+ _build/main.cmi              | Bin 0 -> 1204 bytes
+ _build/main.cmo              | Bin 0 -> 9870 bytes
+ _build/main.ml               | 112 ++++++++++++++++++++++++++++++++++++++
+ _build/main.ml.depends       |   1 +
+ _build/ocamlc.where          |   1 +
+ _build/player.cmi            | Bin 0 -> 1574 bytes
+ _build/player.cmo            | Bin 0 -> 2147 bytes
+ _build/player.ml             | 127 +++++++++++++++++++++++++++++++++++++++++++
+ _build/player.ml.depends     |   1 +
+ _build/player.mli            |  41 ++++++++++++++
+ _build/player.mli.depends    |   1 +
+ _build/property.cmi          | Bin 0 -> 1402 bytes
+ _build/property.cmo          | Bin 0 -> 3161 bytes
+ _build/property.ml           |  62 +++++++++++++++++++++
+ _build/property.ml.depends   |   1 +
+ _build/property.mli          |  51 +++++++++++++++++
+ _build/property.mli.depends  |   1 +
+ board.ml                     |  12 +++-
+ checktypes.byte              |   1 +
+ checktypes.ml                |   1 +
+ main.byte                    |   1 +
+ player.ml                    |   3 +-
+ 42 files changed, 646 insertions(+), 2 deletions(-)
+
+commit 6a9573b66d137589738f8408775208dc4006e807
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Mon Dec 4 13:45:10 2017 -0500
+
+    merge conflicts?
+
+ command.ml  |  3 ++-
+ command.mli |  1 +
+ main.ml     |  3 ++-
+ player.ml   | 17 +++++++++++++++++
+ 4 files changed, 22 insertions(+), 2 deletions(-)
+
+commit f8f4c5e1379f0bdd6dc2341bdeef8b96603ea987
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Mon Dec 4 13:40:44 2017 -0500
+
+    REPL changes
+
+ board.ml    | 29 ++++++++++++++++++++++++++++-
+ board.mli   |  2 ++
+ main.ml     | 13 ++++++++++++-
+ property.ml |  1 -
+ 4 files changed, 42 insertions(+), 3 deletions(-)
+
+commit 5ddf72b2fe00c8f24cb8943ce8a12d7e8bc4ba91
+Author: Mooky <mb2533@cornell.edu>
+Date:   Mon Dec 4 13:37:17 2017 -0500
+
+    Added forfeit attribute to players.
+
+ player.ml  | 42 ++++++++++++++++++++++++------------------
+ player.mli |  4 ++++
+ 2 files changed, 28 insertions(+), 18 deletions(-)
+
+commit 0fe53d6914c3924bff7f8f99aa043224c0757607
+Author: Mooky <mb2533@cornell.edu>
+Date:   Mon Dec 4 13:25:39 2017 -0500
+
+    Added End command.
+
+ command.ml  | 2 ++
+ command.mli | 1 +
+ 2 files changed, 3 insertions(+)
+
+commit 0ce91b697cd610218c267b1c37d8df6ba54fbbbc
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Mon Dec 4 13:08:10 2017 -0500
+
+    print
+
+ main.ml | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 1d31229245095ff66e551a1ff8706504bef97b4d
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Sun Dec 3 22:20:17 2017 -0500
+
+    rolling
+
+ board.ml   | 9 +++++++--
+ board.mli  | 2 ++
+ main.ml    | 3 +--
+ player.ml  | 3 +++
+ player.mli | 2 ++
+ 5 files changed, 15 insertions(+), 4 deletions(-)
+
+commit 01f0e8675083a507e2def6622c99e40e8ef36338
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Sun Dec 3 22:07:30 2017 -0500
+
+    mod
+
+ main.ml | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit b89be9fe26e292efbfc770c552efe87a8b6bd2d3
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Sun Dec 3 22:05:09 2017 -0500
+
+    test push
+
+ board.ml | 30 ------------------------------
+ 1 file changed, 30 deletions(-)
+
+commit 786a940864029ede431bdc82997d6bff78372dea
+Merge: 401c6bb d4dbee1
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Sun Dec 3 22:01:25 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/jtt65/CS3110-Final-Project
+
+commit 401c6bb8c756240ed717e1f192b4f2820baf1051
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Sun Dec 3 22:01:22 2017 -0500
+
+    roll changes
+
+ board.ml | 88 ++++++++++++++++++++++++++++++++++++++--------------------------
+ 1 file changed, 53 insertions(+), 35 deletions(-)
+
+commit d4dbee16b2d45b703ef66b23ef65478967d7e18b
+Author: Mooky <mb2533@cornell.edu>
+Date:   Sun Dec 3 21:59:24 2017 -0500
+
+    Made it loop when you enter an invalid number of players
+
+ main.ml | 8 ++++++--
+ 1 file changed, 6 insertions(+), 2 deletions(-)
+
+commit 130cd33a3aa2cc361b3d7ddc75e06799704b8bdc
+Author: Bipra Kundu <bk372@cornell.edu>
+Date:   Sun Dec 3 21:50:14 2017 -0500
+
+    Implemented roll turn in board.ml
+
+ board.ml | 103 ++++++++++++++++++++++++++++++++-------------------------------
+ 1 file changed, 52 insertions(+), 51 deletions(-)
+
+commit 6fef31cae0c39a17a8d6b3a02a666d3bd3a0324b
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Sun Dec 3 21:45:47 2017 -0500
+
+    new line
+
+ main.ml | 20 ++++++++++----------
+ 1 file changed, 10 insertions(+), 10 deletions(-)
+
+commit 3c805d06db1179ad3983fa57972f87dae5cc6803
+Author: Mooky <mb2533@cornell.edu>
+Date:   Sun Dec 3 21:43:37 2017 -0500
+
+    Made it so that the reple repeats on invalid commands
+
+ command.ml  |  5 +++--
+ command.mli |  1 +
+ main.ml     | 13 +++++++++++++
+ 3 files changed, 17 insertions(+), 2 deletions(-)
+
+commit b37bebc9a1fdf1f6d108e152b6ff0bd42a7827ec
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Sun Dec 3 21:33:05 2017 -0500
+
+    look
+
+ command.ml  | 8 ++++----
+ command.mli | 2 +-
+ main.ml     | 7 ++++++-
+ 3 files changed, 11 insertions(+), 6 deletions(-)
+
+commit 851c22a9342e515907d6bec85d50d1ab97549340
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Sun Dec 3 21:25:06 2017 -0500
+
+    fix repl
+
+ main.ml | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+commit 6fb9e20112097024313089eea33c9bd20469d1be
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Sun Dec 3 21:15:27 2017 -0500
+
+    aoisdnoiansdoi
+
+ main.ml | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+commit 9e5c2b32168f0dbab395f525ea44a040a36b6bbf
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Sun Dec 3 21:08:53 2017 -0500
+
+    repl side of roll finished
+
+ main.ml | 9 ++++-----
+ 1 file changed, 4 insertions(+), 5 deletions(-)
+
+commit 0099106e03c4fff73e15b452ce4adec0f489ae74
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Sun Dec 3 21:01:58 2017 -0500
+
+    interface match
+
+ player.mli | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit cb0df282c667c004087c90eec59c87a97317481d
+Merge: c2e7bcb 8501179
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Sun Dec 3 21:00:16 2017 -0500
+
+    fixed conflict
+
+commit c2e7bcb5f179867ff07e0f89e8fdbf621d0d3f24
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Sun Dec 3 20:59:39 2017 -0500
+
+    changes
+
+ board.ml        |  23 ++++++-------
+ command.ml      |   2 +-
+ main.ml         |  23 ++++---------
+ player.ml       |  11 +++++-
+ player.mli      |   2 ++
+ properties.json | 101 ++++++++++++++++++++++++++++----------------------------
+ property.ml     |   7 ----
+ property.mli    |   3 --
+ 8 files changed, 81 insertions(+), 91 deletions(-)
+
+commit 85011792bdbbea691034a99eb9b696da44cfd5b9
+Merge: afe51e8 dbe7869
+Author: Mooky <mb2533@cornell.edu>
+Date:   Sun Dec 3 20:58:08 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/jtt65/CS3110-Final-Project
+
+commit afe51e8839db7fa068ec695ae65d4446bf0f20e7
+Author: Mooky <mb2533@cornell.edu>
+Date:   Sun Dec 3 20:58:02 2017 -0500
+
+    Modified move to take into account being in Jail. Added/changed buying and seeling implementations
+
+ player.ml  | 88 +++++++++++++++++++++++++++++++++++++-------------------------
+ player.mli |  7 ++---
+ 2 files changed, 54 insertions(+), 41 deletions(-)
+
+commit dbe7869c58c763cccc99d8443098075e971d8224
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Sun Dec 3 20:27:30 2017 -0500
+
+    update turn
+
+ board.ml  | 8 ++++++++
+ board.mli | 2 +-
+ 2 files changed, 9 insertions(+), 1 deletion(-)
+
+commit eb3f57478d16e7599bddb0ce0912aa3f58b3242f
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Sun Dec 3 16:45:03 2017 -0500
+
+    error fixes
+
+ board.ml     | 22 +++++-----------------
+ main.ml      | 17 ++++++++++-------
+ player.ml    |  5 ++++-
+ player.mli   |  2 ++
+ property.ml  | 16 ++++++++++++++++
+ property.mli |  2 ++
+ 6 files changed, 39 insertions(+), 25 deletions(-)
+
+commit 2dff7c332cdec71ae6752f77818174bec78a22ad
+Merge: b82a6d9 7d253ba
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Sun Dec 3 16:24:54 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/jtt65/CS3110-Final-Project
+
+commit b82a6d9c871448b8313c234e7752b78d9ffbcc10
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Sun Dec 3 16:24:53 2017 -0500
+
+    some changes
+
+ board.ml      |  4 ++--
+ checktypes.sh |  2 +-
+ main.ml       | 33 +++++++++++++++++++++++++++++++--
+ 3 files changed, 34 insertions(+), 5 deletions(-)
+
+commit 7d253ba3953ebaad9ed208aa3cddd0666d485382
+Author: Mooky <mb2533@cornell.edu>
+Date:   Sun Dec 3 16:11:06 2017 -0500
+
+    Removed get player from id from player
+
+ player.ml  | 3 ---
+ player.mli | 3 ---
+ 2 files changed, 6 deletions(-)
+
+commit d0da15d9437109c9ac15e201f55815ae8d8a4719
+Merge: a7215a3 5b038ba
+Author: Mooky <mb2533@cornell.edu>
+Date:   Sun Dec 3 16:04:27 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/jtt65/CS3110-Final-Project
+
+commit a7215a3f72c211dfeab4939262653a6dfab65516
+Author: Mooky <mb2533@cornell.edu>
+Date:   Sun Dec 3 16:04:18 2017 -0500
+
+    added properties from json
+
+ board.ml | 22 ++++++++++++++++++++++
+ 1 file changed, 22 insertions(+)
+
+commit 5b038ba60082767c40f2baf6230193d0653c85a7
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Sun Dec 3 15:45:47 2017 -0500
+
+    board fix
+
+ _build/_digests              |  29 -------------
+ _build/_log                  |   8 ----
+ _build/board.cmi             | Bin 781 -> 0 bytes
+ _build/board.cmo             | Bin 3524 -> 0 bytes
+ _build/board.ml              |  64 -----------------------------
+ _build/board.ml.depends      |   1 -
+ _build/board.mli             |  34 ----------------
+ _build/board.mli.depends     |   1 -
+ _build/checktypes.byte       | Bin 222552 -> 0 bytes
+ _build/checktypes.cmi        | Bin 196 -> 0 bytes
+ _build/checktypes.cmo        | Bin 180 -> 0 bytes
+ _build/checktypes.ml         |   1 -
+ _build/checktypes.ml.depends |   1 -
+ _build/command.cmi           | Bin 581 -> 0 bytes
+ _build/command.mli           |  14 -------
+ _build/command.mli.depends   |   1 -
+ _build/main.byte             | Bin 264694 -> 0 bytes
+ _build/main.cmi              | Bin 406 -> 0 bytes
+ _build/main.cmo              | Bin 7839 -> 0 bytes
+ _build/main.ml               |  65 -----------------------------
+ _build/main.ml.depends       |   1 -
+ _build/ocamlc.where          |   1 -
+ _build/player.cmi            | Bin 1255 -> 0 bytes
+ _build/player.cmo            | Bin 1380 -> 0 bytes
+ _build/player.ml             |  95 -------------------------------------------
+ _build/player.ml.depends     |   1 -
+ _build/player.mli            |  41 -------------------
+ _build/player.mli.depends    |   1 -
+ _build/property.cmi          | Bin 1159 -> 0 bytes
+ _build/property.cmo          | Bin 901 -> 0 bytes
+ _build/property.ml           |  53 ------------------------
+ _build/property.ml.depends   |   1 -
+ _build/property.mli          |  52 -----------------------
+ _build/property.mli.depends  |   1 -
+ checktypes.byte              |   1 -
+ checktypes.ml                |   1 -
+ main.byte                    |   1 -
+ 37 files changed, 469 deletions(-)
+
+commit df746da84e5d0bc8b6445a996edfa4d1ba480337
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Sun Dec 3 15:45:09 2017 -0500
+
+    board fix
+
+ _build/_digests              |  29 +++++++++++++
+ _build/_log                  |   8 ++++
+ _build/board.cmi             | Bin 0 -> 781 bytes
+ _build/board.cmo             | Bin 0 -> 3524 bytes
+ _build/board.ml              |  64 +++++++++++++++++++++++++++++
+ _build/board.ml.depends      |   1 +
+ _build/board.mli             |  34 ++++++++++++++++
+ _build/board.mli.depends     |   1 +
+ _build/checktypes.byte       | Bin 0 -> 222552 bytes
+ _build/checktypes.cmi        | Bin 0 -> 196 bytes
+ _build/checktypes.cmo        | Bin 0 -> 180 bytes
+ _build/checktypes.ml         |   1 +
+ _build/checktypes.ml.depends |   1 +
+ _build/command.cmi           | Bin 0 -> 581 bytes
+ _build/command.mli           |  14 +++++++
+ _build/command.mli.depends   |   1 +
+ _build/main.byte             | Bin 0 -> 264694 bytes
+ _build/main.cmi              | Bin 0 -> 406 bytes
+ _build/main.cmo              | Bin 0 -> 7839 bytes
+ _build/main.ml               |  65 +++++++++++++++++++++++++++++
+ _build/main.ml.depends       |   1 +
+ _build/ocamlc.where          |   1 +
+ _build/player.cmi            | Bin 0 -> 1255 bytes
+ _build/player.cmo            | Bin 0 -> 1380 bytes
+ _build/player.ml             |  95 +++++++++++++++++++++++++++++++++++++++++++
+ _build/player.ml.depends     |   1 +
+ _build/player.mli            |  41 +++++++++++++++++++
+ _build/player.mli.depends    |   1 +
+ _build/property.cmi          | Bin 0 -> 1159 bytes
+ _build/property.cmo          | Bin 0 -> 901 bytes
+ _build/property.ml           |  53 ++++++++++++++++++++++++
+ _build/property.ml.depends   |   1 +
+ _build/property.mli          |  52 +++++++++++++++++++++++
+ _build/property.mli.depends  |   1 +
+ checktypes.byte              |   1 +
+ checktypes.ml                |   1 +
+ main.byte                    |   1 +
+ main.ml                      |   2 +-
+ 38 files changed, 470 insertions(+), 1 deletion(-)
+
+commit 11f65eeb0acda8916cf6903a9d4acfde27da542e
+Author: Mooky <mb2533@cornell.edu>
+Date:   Sun Dec 3 15:32:34 2017 -0500
+
+    Added simple move implementation for a player that only moves the player to a new index on the board and gives them 200 if they pass go.
+
+ player.ml  | 25 +++++++++++++++++++++++--
+ player.mli |  3 +++
+ 2 files changed, 26 insertions(+), 2 deletions(-)
+
+commit e98881df71564797f289779270d8b1d265edad96
+Author: Mooky <mb2533@cornell.edu>
+Date:   Sun Dec 3 15:18:28 2017 -0500
+
+    Added property sets to json file for properties
+
+ properties.json | 44 ++++++++++++++++++++++----------------------
+ 1 file changed, 22 insertions(+), 22 deletions(-)
+
+commit 62648286435fc5934ef0c30b8e41faada5255d22
+Author: Bipra Kundu <biprakundu@dhcp-mcfad-8782.eduroam.cornell.edu>
+Date:   Sun Dec 3 15:17:23 2017 -0500
+
+    Implemented functions for JSON parsing in board.ml
+
+ _build/_digests              |  29 -----------------
+ _build/_log                  |   8 -----
+ _build/board.cmi             | Bin 781 -> 0 bytes
+ _build/board.cmo             | Bin 1000 -> 0 bytes
+ _build/board.ml              |  33 -------------------
+ _build/board.ml.depends      |   1 -
+ _build/board.mli             |  34 --------------------
+ _build/board.mli.depends     |   1 -
+ _build/checktypes.byte       | Bin 222552 -> 0 bytes
+ _build/checktypes.cmi        | Bin 196 -> 0 bytes
+ _build/checktypes.cmo        | Bin 180 -> 0 bytes
+ _build/checktypes.ml         |   1 -
+ _build/checktypes.ml.depends |   1 -
+ _build/command.cmi           | Bin 581 -> 0 bytes
+ _build/command.mli           |  14 --------
+ _build/command.mli.depends   |   1 -
+ _build/main.byte             | Bin 259762 -> 0 bytes
+ _build/main.cmi              | Bin 406 -> 0 bytes
+ _build/main.cmo              | Bin 2266 -> 0 bytes
+ _build/main.ml               |  29 -----------------
+ _build/main.ml.depends       |   1 -
+ _build/ocamlc.where          |   1 -
+ _build/player.cmi            | Bin 1174 -> 0 bytes
+ _build/player.cmo            | Bin 1201 -> 0 bytes
+ _build/player.ml             |  74 -------------------------------------------
+ _build/player.ml.depends     |   1 -
+ _build/player.mli            |  38 ----------------------
+ _build/player.mli.depends    |   1 -
+ _build/property.cmi          | Bin 1159 -> 0 bytes
+ _build/property.cmo          | Bin 901 -> 0 bytes
+ _build/property.ml           |  53 -------------------------------
+ _build/property.ml.depends   |   1 -
+ _build/property.mli          |  52 ------------------------------
+ _build/property.mli.depends  |   1 -
+ checktypes.byte              |   1 -
+ checktypes.ml                |   1 -
+ main.byte                    |   1 -
+ 37 files changed, 378 deletions(-)
+
+commit ea3513ebf83dd1239e00a6a5ed92667540bc16e7
+Author: Bipra Kundu <biprakundu@dhcp-mcfad-8782.eduroam.cornell.edu>
+Date:   Sun Dec 3 15:16:41 2017 -0500
+
+    Implemented functions for JSON parsing in board.ml
+
+ _build/_digests              |  29 +++++++++++++++++
+ _build/_log                  |   8 +++++
+ _build/board.cmi             | Bin 0 -> 781 bytes
+ _build/board.cmo             | Bin 0 -> 1000 bytes
+ _build/board.ml              |  33 +++++++++++++++++++
+ _build/board.ml.depends      |   1 +
+ _build/board.mli             |  34 ++++++++++++++++++++
+ _build/board.mli.depends     |   1 +
+ _build/checktypes.byte       | Bin 0 -> 222552 bytes
+ _build/checktypes.cmi        | Bin 0 -> 196 bytes
+ _build/checktypes.cmo        | Bin 0 -> 180 bytes
+ _build/checktypes.ml         |   1 +
+ _build/checktypes.ml.depends |   1 +
+ _build/command.cmi           | Bin 0 -> 581 bytes
+ _build/command.mli           |  14 ++++++++
+ _build/command.mli.depends   |   1 +
+ _build/main.byte             | Bin 0 -> 259762 bytes
+ _build/main.cmi              | Bin 0 -> 406 bytes
+ _build/main.cmo              | Bin 0 -> 2266 bytes
+ _build/main.ml               |  29 +++++++++++++++++
+ _build/main.ml.depends       |   1 +
+ _build/ocamlc.where          |   1 +
+ _build/player.cmi            | Bin 0 -> 1174 bytes
+ _build/player.cmo            | Bin 0 -> 1201 bytes
+ _build/player.ml             |  74 +++++++++++++++++++++++++++++++++++++++++++
+ _build/player.ml.depends     |   1 +
+ _build/player.mli            |  38 ++++++++++++++++++++++
+ _build/player.mli.depends    |   1 +
+ _build/property.cmi          | Bin 0 -> 1159 bytes
+ _build/property.cmo          | Bin 0 -> 901 bytes
+ _build/property.ml           |  53 +++++++++++++++++++++++++++++++
+ _build/property.ml.depends   |   1 +
+ _build/property.mli          |  52 ++++++++++++++++++++++++++++++
+ _build/property.mli.depends  |   1 +
+ board.ml                     |  31 ++++++++++++++++++
+ checktypes.byte              |   1 +
+ checktypes.ml                |   1 +
+ main.byte                    |   1 +
+ 38 files changed, 409 insertions(+)
+
+commit 679b0ce03ed1e2bd18757359b35df3b29c57ae5b
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Sun Dec 3 14:51:39 2017 -0500
+
+    look at all the lines of code i committed
+
+ main.ml | 44 ++++++++++++++++++++++++++++++++++++++++----
+ 1 file changed, 40 insertions(+), 4 deletions(-)
+
+commit 490e1729330c944fb38e08396cfb68334021879a
+Merge: 1da7d15 216d8f2
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Sun Dec 3 14:23:59 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/jtt65/CS3110-Final-Project
+
+commit 1da7d15a02af7dbaaaaf9852b51f2585618013bf
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Sun Dec 3 14:23:58 2017 -0500
+
+    board print started
+
+ main.ml | 17 +++++++++++++++--
+ 1 file changed, 15 insertions(+), 2 deletions(-)
+
+commit 216d8f2589ffb0eb87052fdccd4c3792e9ffc3e4
+Author: Mooky <mb2533@cornell.edu>
+Date:   Sun Dec 3 14:10:33 2017 -0500
+
+    added forfeit to commands
+
+ command.ml  | 2 ++
+ command.mli | 1 +
+ 2 files changed, 3 insertions(+)
+
+commit e49a6d0e6a71125a0ad1b951ca8040795a97a783
+Author: Mooky <mb2533@cornell.edu>
+Date:   Sun Dec 3 14:04:44 2017 -0500
+
+    added mortage to commands
+
+ command.ml | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 2b429ca5cdce0f291a00bb9ea78e28e5c1ca2329
+Author: Bipra Kundu <biprakundu@dhcp-mcfad-8782.eduroam.cornell.edu>
+Date:   Sun Dec 3 13:53:15 2017 -0500
+
+    Functions in properties.ml
+
+ property.ml | 15 ++++++++-------
+ 1 file changed, 8 insertions(+), 7 deletions(-)
+
+commit 664503af123615724be4d1c03765db382875a465
+Author: Mooky <mb2533@cornell.edu>
+Date:   Sun Dec 3 13:52:32 2017 -0500
+
+    added code to command.ml and command.mli
+
+ command.ml  | 46 ++++++++++++++++++++++++++++++++++++++++++++++
+ command.mli | 10 +++++++++-
+ 2 files changed, 55 insertions(+), 1 deletion(-)
+
+commit fb00be8b01876ac5e1bda9c9c3b008dd31f1663b
+Author: Mooky <mb2533@cornell.edu>
+Date:   Sun Dec 3 13:33:05 2017 -0500
+
+    Added properties.json to for the initial properties.
+
+ properties.json | 501 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 501 insertions(+)
+
+commit 98fa99a6ec40343e60b7ced825a3b976d9589e8d
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Sat Dec 2 20:45:24 2017 -0500
+
+    mortgage price is int not bool
+
+ property.ml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit bdd4655f0315626df75dd2b3237055ee5df8cae3
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Sat Dec 2 19:02:26 2017 -0500
+
+    everything compiles we are gods of ocaml
+
+ property.ml  | 25 +++++++++++++++++++++++--
+ property.mli |  2 +-
+ 2 files changed, 24 insertions(+), 3 deletions(-)
+
+commit 653b3043f8765a9beb478f0894e22f6691cf4501
+Merge: bf2b15e 70cc644
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Sat Dec 2 18:58:27 2017 -0500
+
+    resolving conflict
+
+commit bf2b15e425a9338bc27ceb2ba77fe9c4d57691ba
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Sat Dec 2 18:57:33 2017 -0500
+
+    compiling stuff
+
+ checktypes.sh | 2 +-
+ player.ml     | 2 +-
+ player.mli    | 6 +++---
+ 3 files changed, 5 insertions(+), 5 deletions(-)
+
+commit 70cc6445699f33756180f34c7381b3688a98435d
+Merge: 0c5c030 613a0e4
+Author: Mooky <mb2533@cornell.edu>
+Date:   Sat Dec 2 18:56:07 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/jtt65/CS3110-Final-Project
+
+commit 0c5c030e559f966202348ce92e79eae91ac3e6d9
+Author: Mooky <mb2533@cornell.edu>
+Date:   Sat Dec 2 18:55:57 2017 -0500
+
+    Changed around player.ml and player.mli
+
+ player.ml  | 10 +++++-----
+ player.mli |  1 +
+ 2 files changed, 6 insertions(+), 5 deletions(-)
+
+commit 613a0e4a836e31494b13601b271e885066d50b08
+Merge: d7ecd26 cd2079e
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Sat Dec 2 18:53:13 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/jtt65/CS3110-Final-Project
+
+commit d7ecd26d5ab442d8e5673ffd1f34b7dfa0aac3ca
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Sat Dec 2 18:53:09 2017 -0500
+
+    some board and property.mli code
+
+ board.ml     | 19 +++++++++++++------
+ property.mli |  2 ++
+ 2 files changed, 15 insertions(+), 6 deletions(-)
+
+commit cd2079ef54764df485256817d48655fe114ab7df
+Author: Mooky <mb2533@cornell.edu>
+Date:   Sat Dec 2 18:52:38 2017 -0500
+
+    Changed around player.ml and player.mli
+
+ player.ml  | 20 ++++++++++++++++++--
+ player.mli | 16 ++++++++--------
+ 2 files changed, 26 insertions(+), 10 deletions(-)
+
+commit 2c3ccad78e1460222c6c5eff14d4835777f00957
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Sat Dec 2 18:37:08 2017 -0500
+
+    board.ml interface
+
+ board.ml | 17 ++++++++++++++++-
+ 1 file changed, 16 insertions(+), 1 deletion(-)
+
+commit 2a5a7a0abfa36aa972a8cf6fbb331848ac54fe48
+Author: Bipra Kundu <biprakundu@dhcp-rhodes-1507.eduroam.cornell.edu>
+Date:   Sat Dec 2 18:35:19 2017 -0500
+
+    Started implemning property.ml and made some changes to the types in property.mli
+
+ property.ml  | 31 +++++++++++++++++++++++++++++++
+ property.mli | 20 ++++++++++----------
+ 2 files changed, 41 insertions(+), 10 deletions(-)
+
+commit 65eafd5b356fc418dd65f1a241443ed2ed33cd49
+Author: Mooky <mb2533@cornell.edu>
+Date:   Sat Dec 2 18:33:58 2017 -0500
+
+    player.ml
+
+ player.ml | 59 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 59 insertions(+)
+
+commit 06051a09f26c80ebf27dbfd245b970f6845aee88
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Sat Dec 2 18:23:10 2017 -0500
+
+    Makefile updates
+
+ Makefile      |  3 +++
+ board.ml      | 11 ++++++++++
+ checkenv.sh   | 65 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ checktypes.sh | 44 ++++++++++++++++++++++++++++++++++++++++
+ command.ml    |  0
+ 5 files changed, 123 insertions(+)
+
+commit 9f07d4a58796c8651d06529c671e7b2c175736d3
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Sat Dec 2 18:06:53 2017 -0500
+
+    failwith Implemented
+
+ _tags   |  1 +
+ main.ml | 16 ++++++++++++++++
+ 2 files changed, 17 insertions(+)
+
+commit 9519c23adf21c2545dfa304eda67d5829e9b13b5
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Sat Dec 2 18:03:07 2017 -0500
+
+    Makefile
+
+ Makefile | 9 +++++++++
+ main.ml  | 0
+ 2 files changed, 9 insertions(+)
+
+commit 7c4b318e662fb36eea416d7545d36cc44f49e77d
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Wed Nov 15 20:16:38 2017 -0500
+
+    current_players
+
+ board.mli | 3 +++
+ 1 file changed, 3 insertions(+)
+
+commit ee32e367c209772f6a6312d4b8df304f65d38080
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Wed Nov 15 19:59:12 2017 -0500
+
+    changes from object to string
+
+ player.mli   | 19 +++++++++++--------
+ property.mli | 22 +++++++++++-----------
+ 2 files changed, 22 insertions(+), 19 deletions(-)
+
+commit 15fa83d4fb8f865a89e239e76d0e70133e2dfb6b
+Author: Bipra Kundu <biprakundu@dhcp-rhodes-675.eduroam.cornell.edu>
+Date:   Wed Nov 15 18:49:44 2017 -0500
+
+    Added in_jail to player.mli
+
+ player.mli | 3 +++
+ 1 file changed, 3 insertions(+)
+
+commit fc79c5344a05198a9d1b9242072a96281aa243d0
+Author: Bipra Kundu <biprakundu@dhcp-rhodes-675.eduroam.cornell.edu>
+Date:   Wed Nov 15 18:48:21 2017 -0500
+
+    Added more specs in property.mli
+
+ player.mli   |  5 ++++-
+ property.mli | 45 +++++++++++++++++++++++++++++++++++++++------
+ 2 files changed, 43 insertions(+), 7 deletions(-)
+
+commit 46d6356fe6f9d084301a4cc8e43b00112bf7974a
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Tue Nov 14 21:29:31 2017 -0500
+
+    hi
+
+ board.mli | 9 ++++++---
+ 1 file changed, 6 insertions(+), 3 deletions(-)
+
+commit b29e4dea0d09530de069caf6e47e69ce7cc0f1c8
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Tue Nov 14 21:26:04 2017 -0500
+
+    Board state changes
+
+ board.mli | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+commit e4bf8d1329dda372ee2b7950cb9dba3214fa939b
+Merge: 784aab4 55afd75
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Tue Nov 14 21:24:26 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/jtt65/CS3110-Final-Project
+
+commit 784aab45004db7dcd7489af0dc374faab92eaedd
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Tue Nov 14 21:24:24 2017 -0500
+
+    player mli changes
+
+ Player.mli | 24 ++++++++++--------------
+ 1 file changed, 10 insertions(+), 14 deletions(-)
+
+commit 55afd75758724a59b436cc27b52d6695889c19c6
+Author: Bipra Kundu <bk372@cornell.edu>
+Date:   Tue Nov 14 21:23:51 2017 -0500
+
+    Added property.mli and specs
+
+ property.mli | 17 +++++++++++++++++
+ 1 file changed, 17 insertions(+)
+
+commit 1fa4e75362059e788b6b93ef4bc04724d4ea1228
+Author: Mooky <mb2533@cornell.edu>
+Date:   Tue Nov 14 21:23:39 2017 -0500
+
+    added player.mli
+
+ Player.mli => player.mli | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 05b67b34d322faf197cb14aff4a70e51e2317c75
+Merge: 9950292 b32d841
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Tue Nov 14 21:19:58 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/jtt65/CS3110-Final-Project
+
+commit 9950292c9a91700a39f0e43908e1b2dd49becb01
+Author: Justin Tran <jtt65@cornell.edu>
+Date:   Tue Nov 14 21:19:57 2017 -0500
+
+    board and command
+
+ board.mli   | 28 ++++++++++++++++++++++++++++
+ command.mli |  5 +++++
+ 2 files changed, 33 insertions(+)
+
+commit b32d8415ced4065a7b291cdd5305989fdc413504
+Author: Mooky <mb2533@cornell.edu>
+Date:   Tue Nov 14 21:19:50 2017 -0500
+
+    Added mli specs for Player.mli
+
+ Player.mli | 6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+
+commit 277aeb4d8c97bedd0a21a3ba3bc7042261a2671a
+Author: Mooky <mb2533@cornell.edu>
+Date:   Tue Nov 14 21:16:46 2017 -0500
+
+    Added mli specs for Player.mli
+
+ Player.mli | 28 ++++++++++++++++++++++++++++
+ 1 file changed, 28 insertions(+)
+
+commit fe5ecfc6f823b843302b3695e126acb4d75d0e9d
+Author: Mooky <mb2533@cornell.edu>
+Date:   Tue Nov 14 20:56:09 2017 -0500
+
+    added player mli file
+
+ Player.mli | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit c04a3f7aee03ffb82beb79f47770918c89508bb3
+Author: Justin Taylor Tran <jtt65@cornell.edu>
+Date:   Tue Nov 14 19:27:35 2017 -0500
+
+    Initial commit
+
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)
